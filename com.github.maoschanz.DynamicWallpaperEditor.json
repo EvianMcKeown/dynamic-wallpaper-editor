@@ -1,12 +1,11 @@
 {
 	"app-id" : "com.github.maoschanz.DynamicWallpaperEditor",
 	"runtime" : "org.gnome.Platform",
-	"runtime-version" : "41",
+	"runtime-version" : "49",
 	"sdk" : "org.gnome.Sdk",
 	"command" : "dynamic-wallpaper-editor",
 	"finish-args" : [
 		"--share=ipc",
-		"--socket=x11",
 		"--socket=wayland",
 		"--filesystem=home:ro"
 	],
@@ -15,7 +14,7 @@
 		"buildsystem" : "meson",
 		"sources" : [{
 			"type" : "git",
-			"url" : "https://github.com/maoschanz/dynamic-wallpaper-editor.git"
+			"url" : "https://github.com/EvianMcKeown/dynamic-wallpaper-editor.git"
 		}]
 	}]
 }
